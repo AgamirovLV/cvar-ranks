@@ -1,0 +1,7 @@
+cmd из папки с проектом
+git add .
+git commit -m "комментарий"
+git push heroku master
+
+
+

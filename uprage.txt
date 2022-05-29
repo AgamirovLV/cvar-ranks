@@ -1,4 +1,5 @@
 cmd из папки с проектом
+https://agamirov.herokuapp.com/
 git add .
 git commit -m "комментарий"
 git push heroku master

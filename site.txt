@@ -1,1 +1,9 @@
+Начало
+https://devcenter.heroku.com/articles/getting-started-with-php#set-up
+https://dashboard.heroku.com/apps/agamirov
 https://agamirov.herokuapp.com/
+heroku.com
+Z7cxttc4exe#
+VPN proton
+AgamirovLV
+Z7cxttc4exe

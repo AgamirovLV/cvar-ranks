@@ -1,7 +1,8 @@
 Начало
+Чтоб переименовать приложение надо зайти в dashboard и settings
 https://devcenter.heroku.com/articles/getting-started-with-php#set-up
-https://dashboard.heroku.com/apps/agamirov
-https://agamirov.herokuapp.com/
+https://dashboard.heroku.com/apps
+https://cvar-ranks.herokuapp.com/
 heroku.com
 Z7cxttc4exe#
 VPN proton

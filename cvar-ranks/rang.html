@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<script src="cvar.js"></script>
+<script src="statcvar.js"></script>
+<script src="rang.js"></script>
+<script src="statrang.js"></script>
+
+
+</head>
+
+<body style='text-align:center;font-family:Times New Roman;font-size:14pt;font-weight:bold'>Обратные функции распределения
+<br><br>
+Процентные точки распределения коэффициента вариации
+<br><br>
+<button type="button" title="Процентные точки распределения коэффициента вариации точное решение" onClick=datacvar(0) >Cvar_exact</button>
+<button type="button" title="Аппроксимация МакКея" onClick=datacvar(1)>Cvar_McKey</button>
+<button type="button" title="Процентные точки распределения коэффициента вариации через t-распределение" onClick=datacvar(2)>Cvar_t</button>
+<button type="button" title="Процентные точки распределения коэффициента вариации через аппроксимацию t-распределения" onClick=datacvar(3)>Cvar_t_App_prncst</button>
+<button type="button" title="Процентные точки распределения коэффициента вариации через аппроксимацию t-распределения" onClick=datacvar(4)>Cvar_t_sf54r</button>
+<br><br>
+Процентные точки нецентрального распределения Стьюдента
+<br><br>
+<button type="button" title="Процентные точки нецентрального распределения Стьюдента точное решение" onClick=datatquantile(0)>tquantile</button>
+<button type="button" title="Процентные точки нецентрального распределения Стьюдента аппроксимация prncst" onClick=datatquantile(1)>tquantile_prncst</button>
+<button type="button" title="Процентные точки нецентрального распределения Стьюдента аппроксимация sf54r" onClick=datatquantile(2)>tquantile_sf54r</button>
+<br><br>
+Числовые характеристики порядковых статистик
+<br><br>
+<button type="button" title="Мат.ожидания и дисперсии нормальных порядковых статистик точное решение" onClick=dataorder(0)>Exact Order Normall</button>
+<button type="button" title="Мат.ожидания и дисперсии нормальных порядковых статистик аппроксимация Дэйвида-Джонсона" onClick=dataorder(1)>Approximation Order Normall</button>
+<button type="button" title="Мат.ожидания и дисперсии вейбулловских порядковых статистик точное решение" onClick=dataorder(2)>Exact Order Weibull</button>
+<button type="button" title="Мат.ожидания и дисперсии вейбулловских порядковых статистик аппроксимация Дэйвида-Джонсона" onClick=dataorder(3)>Approximation Order Weibull</button>
+
+<p>Download Cvar Js</p>
+<br>
+<a href="cvar.js" download>Скачать файл cvar.js</a>
+<br>
+<a href="statcvar.js" download>Скачать файл statcvar.js</a>
+<br>
+</body>
+
+<br><br>
+<body style='text-align:center;font-family:Times New Roman;font-size:14pt;font-weight:bold'>Точные распределение ранговых критериев
+<br><br>
+<button type="button" title="Range" onClick=main("Kruskal")>Kruskal</button>
+<button type="button" title="Range" onClick=main("Leman")>Leman</button>
+<button type="button" title="Range" onClick=main("Mood")>Mood</button>
+<button type="button" title="Range" onClick=main("Ansari")>Ansari</button>
+<button type="button" title="Range" onClick=main("Ansari-analitic")>Ansari-analitic</button>
+<button type="button" title="Range" onClick=main("Wilcoxon")>Wilcoxon</button>
+<button type="button" title="Range" onClick=main("Wilcoxon-analitic")>Wilcoxon-Analitic</button>
+<button type="button" title="Range" onClick=main("Series")>Series</button>
+<button type="button" title="Range" onClick=main("Capon")>Capon</button>
+<button type="button" title="Range" onClick=main("Fisher")>Fisher-Yets</button>
+<button type="button" title="Range" onClick=main("Klotz")>Klotz</button>
+<button type="button" title="Range" onClick=main("VanDerVarden")>Van Der Varden</button>
+<p>Download Rang Js</p>
+<a href="rang.txt" download>Скачать файл rang.html</a>
+<br>
+<a href="statrang.js" download>Скачать файл statrang.js</a>
+<br>
+<p>Download Cpp</p>
+<a href="RangCpp/Project5.cpp"" download>Скачать файл Project5.cpp</a>
+<br>
+<a href="RangCpp/stat.h"" download>Скачать файл stat.h</a>
+<br>
+<a href="RangCpp/omega.inp">Inp File</a>
+<a href="RangCpp/omega.inp" download>Скачать файл omega.inp</a>
+
+<br><br>
+</body>
+</html>

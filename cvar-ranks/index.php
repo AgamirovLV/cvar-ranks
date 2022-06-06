@@ -1,1 +1,1 @@
-<?php include_once("rang.html"); ?>
+<?php include_once("rank.html"); ?>
